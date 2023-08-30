@@ -1,0 +1,65 @@
+
+.courses_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 1rem;
+    background-color: var(--clr-bg);
+    color: var(--clr-text-main);
+    box-shadow: 0 0 1rem 0rem black;
+    width: 600px;
+    
+}
+
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.courses::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+.image_container img{
+    height: 150px;
+    margin-left: 120px;
+}
+.card_title{
+    margin-left: 135px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-accent);
+  color: var(--clr-text-main);
+  border-radius:0.9rem;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  width: max-content;
+  font-size: 1.3rem;
+  font-weight: bold;
+  box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 1);
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  /* background-color: var(--clr-accent-hover); */
+  transform: scale(0.9);
+  background-color: var(--clr-touch)
+}
+
+.reactLink{
+    text-decoration: none !important;
+    color: white;
+}
